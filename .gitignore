@@ -1,0 +1,22 @@
+# Build artifacts (exes are distributed via GitHub Releases, not committed)
+*.exe
+*.spec
+build/
+dist/
+
+# Generated scan reports (may contain sensitive host details)
+sentry_system_audit_*.txt
+sentry_process_scan_*.txt
+sentry_fullsweep_*.txt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
